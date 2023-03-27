@@ -1,0 +1,23 @@
+Đề bài: Viết chương trình quản lý hoc sinh trong Python. 
+Mỗi đối tượng học sinh có các thuộc tính sau:  điểm toán, điểm lý, điểm hóa, điểm trung bình và học lực.
+- Id là mã học sinh, ko trùng, tự động tăng.
+- ten
+- giới tính chỉ nhận hai giá trị nam/nữ
+- Ngày sinh
+- Điểm trung bình là giá trị trung bình của 3 môn toán, lý và hóa.
+- Học lực được tính như sau:
++Giỏi: nếu điểm trung bình lớn hơn hoặc bằng 8.
++Khá: nếu điểm trung bình nhỏ hơn 8 và lớn hơn hoặc bằng 6.5.
++Trung Bình: nếu điểm trung bình nhỏ hơn 6.5 và lớn hơn hoặc bằng 5.
++Yếu: nếu điểm trung bình nhỏ hơn 5.
+
+Yêu cầu: tạo ra một menu với các chức năng sau:
+
+1. Thêm học sinh.
+2. Cập nhật thông tin học sinh bởi ID.
+3. Xóa học sinh bởi ID.
+4. Tìm kiếm học sinh theo id.
+5. Tìm kiếm học sinh theo name.
+6. Sắp xếp học sinh theo điểm trung bình (GPA).
+7. Hiển thị danh sách học sinh.
+
